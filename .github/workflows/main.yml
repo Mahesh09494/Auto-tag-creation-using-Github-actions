@@ -10,4 +10,4 @@ jobs:
           fetch-depth: 0
       - name: Run File
         id: run_file
-        run: sh ./entrypoint.sh
+        run: sh ./autotag.sh
