@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-previous_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+previous_tag=v16-env-v0.0.0-dy-b9
 
 echo "previous_tag : $previous_tag"; echo; echo;
 
