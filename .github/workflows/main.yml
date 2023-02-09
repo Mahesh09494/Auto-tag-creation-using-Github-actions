@@ -3,7 +3,7 @@ on:
   push
 jobs:
   auto_tag:
-    runs-on: [ubuntu]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
