@@ -3,7 +3,7 @@ on:
   push
 jobs:
   auto_tag:
-    runs-on: [restaurantbridge]
+    runs-on: [ubuntu]
     steps:
       - uses: actions/checkout@v3
         with:
